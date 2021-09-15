@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="81a27341-cfbd-49bf-8886-56b1b4cc5c60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/udemycource/spring/rest/controller/MyRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemycource/spring/rest/controller/MyRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/udemycource/spring/rest/exception_handling/EmployeeGlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/udemycource/spring/rest/exception_handling/EmployeeGlobalExceptionHandler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/udemycource/spring/rest/controller/MyRestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="466">
+              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,11 +36,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/udemycource/spring/rest/exception_handling/EmployeeGlobalExceptionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+            <state relative-caret-position="483">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/main/java/org/udemycource/spring/rest/configuration/MyConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/udemycource/spring/rest/exception_handling/EmployeeIncorrectData.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/udemycource/spring/rest/exception_handling/NoSuchEmployeeException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/udemycource/spring/rest/exception_handling/EmployeeGlobalExceptionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/udemycource/spring/rest/controller/MyRestController.java" />
       </list>
     </option>
@@ -499,12 +504,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631685970002</updated>
-      <workItem from="1631685975904" duration="6731000" />
+      <workItem from="1631685975904" duration="7032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6731000" />
+    <option name="totallyTimeSpent" value="7032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -648,20 +653,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/udemycource/spring/rest/controller/MyRestController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/udemycource/spring/rest/exception_handling/EmployeeGlobalExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="483">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/udemycource/spring/rest/exception_handling/EmployeeGlobalExceptionHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/udemycource/spring/rest/controller/MyRestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        <state relative-caret-position="466">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

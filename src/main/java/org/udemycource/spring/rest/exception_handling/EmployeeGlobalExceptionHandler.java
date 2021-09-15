@@ -14,7 +14,6 @@ public class EmployeeGlobalExceptionHandler {
         data.setInfo(exception.getMessage());
 
         return new ResponseEntity<>(data, HttpStatus.NOT_FOUND);
-
     }
 
     @ExceptionHandler
@@ -23,6 +22,5 @@ public class EmployeeGlobalExceptionHandler {
         data.setInfo(exception.getMessage());
 
         return new ResponseEntity<>(data, HttpStatus.BAD_REQUEST);
-
     }
 }

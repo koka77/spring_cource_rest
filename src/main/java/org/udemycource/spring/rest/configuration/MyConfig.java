@@ -25,7 +25,7 @@ public class MyConfig {
  *     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
  *           destroy-method="close">
  *         <property name="driverClass" value="com.mysql.cj.jdbc.Driver" />
- *         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/my_db?useSSL=false&amp;serverTimezone=UTC" />
+ *         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/my_db?useSSL=false" />
  *         <property name="user" value="bestuser" />
  *         <property name="password" value="bestuser" />
  *     </bean>
@@ -36,7 +36,8 @@ public class MyConfig {
         ComboPooledDataSource dataSource = new ComboPooledDataSource();
         try {
             dataSource.setDriverClass("com.mysql.cj.jdbc.Driver");
-            dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/my_db?useSSL=false&amp;serverTimezone=UTC");
+            //в конце строки нельзя дописывать временную зону &amp;serverTimezone=UTC
+            dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/my_db?useSSL=false");
             dataSource.setUser("bestuser");
             dataSource.setPassword("bestuser");
 
